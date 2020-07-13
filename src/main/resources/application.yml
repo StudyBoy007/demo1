@@ -1,0 +1,31 @@
+server:
+  port: 8077
+#spring:
+#  profiles:
+#    active: dev
+---
+server:
+  port: 8078
+spring:
+  profiles: dev
+---
+server:
+  port: 8079
+spring:
+  profiles: pro
+---
+#
+#
+#person:
+#  username: bob
+#  age: 18
+#  boss: true
+#  map: {k1: v1,k2: v2}
+#  list:
+#    - 1
+#    - 2
+#  birth: 1998/1/14
+#  dog:
+#    name: 球球
+#    age: 1
+#
